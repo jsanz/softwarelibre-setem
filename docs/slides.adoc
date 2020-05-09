@@ -13,6 +13,8 @@
 :title-slide-transition: fade-in
 :title-slide-transition-speed: fast
 :title-slide-background-image: banner-horizontal.jpg
+:revealjs_parallaxBackgroundImage: background.jpg
+:revealjs_parallaxBackgroundSize: 1280px 640px
 Jorge Sanz <jorge.sanz@elastic.co>
 https://twitter.com/xurxosanz[@xurxosanz]
 

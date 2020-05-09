@@ -1,3 +1,7 @@
+body {
+  background-image: url('../imgs/background.png');
+}
+
 .reveal .slides section.title {
   opacity: 0;
 }
