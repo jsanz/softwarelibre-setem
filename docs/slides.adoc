@@ -1,0 +1,87 @@
+= Software Libre
+:revealjs_theme: beige
+:revealjs_hash: true
+:revealjs_history: true
+:revealjs_slideNumber: c/t
+:revealjs_previewLinks: true
+:customcss: styles/styles.css
+:icons: font
+:imagesdir: imgs
+:source-highlighter: highlightjs
+:title-slide-transition: fade-in
+:title-slide-transition-speed: fast
+Jorge Sanz | SETEM PV
+https://twitter.com/xurxosanz[@xurxosanz]
+
+[.no-border]
+image::logo.jpg[Software Libre,50%]
+
+[.notes]
+--
+Bienvenida
+--
+
+=== Antes de empezar...
+
+image::https://media.giphy.com/media/3SF7JSl3o53UI/giphy.gif[Grabando]
+
+== Jorge Sanz
+
+[.role-details]
+[cols="^,<"] 
+[%autowidth]
+|===
+| 👨‍🏫 | Ingeniero en Cartografía y Geodesia (UPV)
+| 🌐 | Aldaia, Valencia
+| 🔖 | https://jorgesanz.net[jorgesanz.net]
+| 👨‍💻 | https://elastic.co[Elastic], antes en https://carto.com[CARTO], https://prodevelop.es[Prodevelop]
+| 💜 | https://osgeo.org[OSGeo], http://geoinquietos.org[Geoinquietos], https://openstreetmap.org[OSM], http://www.setem.org/site/es/comunitat-valenciana[SETEM]
+| 📧 | mailto:jorge.sanz@elastic.co[xurxosanz@gmail.com]
+| 🐤 | https://twitter.com/xurxosanz[@xurxosanz]
+|===
+
+[.notes]
+--
+Me presento
+--
+
+
+=== 📑 Agenda
+
+* Bienvenida
+* Qué es el software libre
+* Alternativas a software propietario
+* Discusión
+
+== Título sección
+
+=== Título subsección
+
+
+[transition="fade-out", transition-speed=fast]
+=== Subsección con transición personalizada
+
+
+[%notitle,background-iframe="https://es.wikipedia.org/wiki/Wikipedia:Portada"]
+=== Sección sin título y con IFrame
+
+
+== Código fuente
+
+[source, bash]
+----
+for in in ls; do echo $i; done
+----
+
+
+== ¡¡Gracias!!
+[%hardbreaks]
+👨‍💻 Jorge Sanz 
+📧 mailto:jorge.sanz@elastic.co[jorge.sanz@elastic.co]
+🐤 https://twitter.com/xurxosanz[@xurxosanz]
+
+=== Recursos
+
+* http://bit.ly/20191114-openmaptiles[Serving Vector Tiles and OpenMapTiles]
+
+

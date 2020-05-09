@@ -1,0 +1,40 @@
+{
+  "name": "omt-workshop",
+  "version": "1.0.0",
+  "description": "OpenMapTiles workshop",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd docs && asciidoctor-revealjs slides.adoc --out-file index.html",
+    "serve": "lite-server",
+    "watch": "nodemon",
+    "dev": "concurrently \"npm run serve\" \"npm run watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsanz/omt-workshop.git"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "docs/slides.adoc"
+    ],
+    "exec": "yarn build"
+  },
+  "keywords": [
+    "openmaptiles",
+    "basemaps",
+    "mapboxgl",
+    "postgis"
+  ],
+  "author": "Jorge Sanz <jorge.sanz@elastic.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsanz/omt-workshop/issues"
+  },
+  "homepage": "https://github.com/jsanz/omt-workshop#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "lite-server": "^2.5.4",
+    "nodemon": "^2.0.2"
+  }
+}

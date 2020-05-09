@@ -1,0 +1,26 @@
+.reveal .slides section img{
+  border-width: 0;
+  background: none;
+  box-shadow: none;
+  margin:0;
+  padding:0;
+}
+
+.reveal .slides section table,
+table.grid-all>thead>tr>.tableblock, table.grid-all>tbody>tr>.tableblock
+{
+  border: none;
+  padding: 0;
+}
+
+.reveal .slides h1
+{
+  font-size: 2.7em;
+}
+
+.reveal .slides table.role-details td {
+  padding: 5px 0 5px 5px;
+}
+.reveal .slides table.role-details td p {
+  margin: 5px;
+}
