@@ -1,3 +1,5 @@
+
+[%conceal]
 = Software Libre
 :revealjs_theme: beige
 :revealjs_hash: true
@@ -10,8 +12,11 @@
 :source-highlighter: highlightjs
 :title-slide-transition: fade-in
 :title-slide-transition-speed: fast
-Jorge Sanz | SETEM PV
+:title-slide-background-image: banner-horizontal.jpg
+Jorge Sanz <jorge.sanz@elastic.co>
 https://twitter.com/xurxosanz[@xurxosanz]
+
+== Bienvenida
 
 [.no-border]
 image::logo.jpg[Software Libre,50%]
@@ -25,7 +30,9 @@ Bienvenida
 
 image::https://media.giphy.com/media/3SF7JSl3o53UI/giphy.gif[Grabando]
 
-== Jorge Sanz
+https://jsanz.github.io/softwarelibre-setem/[jsanz.github.io/softwarelibre-setem]
+
+=== Jorge Sanz
 
 [.role-details]
 [cols="^,<"] 

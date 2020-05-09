@@ -16,5 +16,6 @@ dev:
 publish: build
 	$(if $(MESSAGE),, \
       $(error Undefined MESSAGE (M)))
+	git add docs/index.html
 	git commit -m "$(MESSAGE)"
 	git push

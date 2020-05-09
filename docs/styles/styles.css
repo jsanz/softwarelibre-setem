@@ -1,3 +1,7 @@
+.reveal .slides section.title {
+  opacity: 0;
+}
+
 .reveal .slides section img{
   border-width: 0;
   background: none;
