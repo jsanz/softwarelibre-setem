@@ -1,3 +1,83 @@
-= softwarelibre-setem
+= Software Libre para SETEM
+ifdef::env-github[]
+:note-caption: :information_source:
+endif::[]
 
-Materiales de charla sobre Software Libre para SETEM
+Materiales de charla sobre Software Libre para http://www.setem.org/site/es/comunitat-valenciana[SETEM].
+
+* https://jsanz.github.io/softwarelibre-setem/#/[Diapositivas]
+
+'''
+
+== Introducción: Qué es el Software Libre
+
+En primer lugar hay que definir qué se entiende por _software_. Podemos  definirlo como la parte analógica de un sistema informático, que se complementa con la parte física, el _hardware_. Es decir se trata de un conjunto  de componentes lógicos que un ordenador es capaz de ejecutar para realizar tareas concretas. Algunos ejemplos de software pueden ser un procesador de textos, un navegador web, o un videojuego, mientras que algunos ejemplos de hardware serían un teclado, un monitor, o ordenador portátil. Existe un tipo de software de especial importancia que es el que se conoce como Sistema Operativo; es el software principal que se ejecuta en un equipo informático y sirve para coordinar su hardware y ejecutar otros programas. Ejemplos  de Sistemas Operativos pueden ser: Microsoft Windows, Google Android, o GNU/Linux.
+
+El _software_ se crea usando lo que se conoce como *código fuente*. El código fuente es el conjunto de instrucciones o textos, escritos en un lenguaje de programación concreto, que indican a un ordenador para hacer un a tarea. Se puede entender como una receta de cocina, que te ayuda a cocinar un plato en concreto, si sigues sus pasos en el orden indicado. Una receta no es necesaria para consumir el plato, por lo que no tienes porqué tener acceso a la misma para poder disfrutarlo… salvo que quieras cocinarlo por ti mismo.
+
+El _software_, como cualquier otra creación, está sujeto a una *licencia*, es decir unas reglas para su uso y distribución, definidas por su autor. Es decir el creador de un programa decide qué derechos se reserva y cuáles entrega a los receptores del mismo. Por ejemplo, cuando compras un videojuego, la empresa que lo distribuye te entrega un producto que puedes utilizar para un fin concreto, durante un tiempo determinado (o indefinidamente) y en la mayoría de los casos ese permiso de uso no incluye la capacidad para copiarlo y revenderlo (lo que se conoce comúnmente como piratería digital). 
+
+Llegamos por tanto al concepto de Software Libre: se trata del software que se produce con una licencia que otorga a los consumidores del mismo al menos estas cuatro libertades:
+
+* Libertad para *usar* el programa con cualquier propósito
+* Libertad para *estudiar* el programa y adaptarlo a tus necesidades^*^
+* Libertad para *redistribuir* el programa tantas veces que quieras
+* Libertad para *mejorar* el programa y hacer públicas esas mejoras^*^
+
+^*^ Para poder estudiar y mejorar el programa es necesario tener acceso al código fuente del mismo.
+
+Un software que priva de una o varias de estas libertades se conoce como *software privativo*. Existe un tipo de software privativo que a veces se confunde con el Software Libre, se trata del software que se distribuye de manera gratuita (conocido en inglés como _freeware_) pero sin dar acceso al código fuente. Un ejemplo habitual de freeware podrían ser la mayoría de los juegos para dispositivos móviles, o el lector de archivos PDF _Adobe Acrobat Reader_.
+
+== ¿Por qué es importante el Software Libre?
+
+"`Artíulo publicado en el https://pamapampv.org/es/blog/por-que-es-importante-el-software-libre/[blog de PAM a PAM].`"
+
+
+En los primeros años de la informática los programas eran compartidos sin ninguna licencia en concreto; programadores, ingenieros, académicos de cualquier lugar del mundo compartían y adaptaban sus creaciones para mejorar de forma conjunta, tal y como se ha venido haciendo en  cualquier otro campo de la ciencia. No existía el concepto de Software Libre porque no había de otro tipo.
+
+A mediados de los años 70 del siglo XX los productores de hardware empezaron a no compartir las especificaciones de sus productos, y se empiezan también a comercializar los primeros Sistemas Operativos basados en software privativo. En este contexto en los años 1984 y 1985 Richard Stallman crea el proyecto GNU y la Free Software Foundation para promover el desarrollo de un Sistema Operativo completo,      introduciendo el concepto de Software Libre.
+
+Las razones principales para crear Software Libre en ese momento eran básicamente morales:
+
+* El software privativo es *antimoral*, porque de manera explícita prohíbe ayudar a tus iguales. La gente se salta esta barrera y practica la piratería.
+* El software privativo es *frustrante* porque impide adaptarlo y mejorarlo a tus necesidades.
+* El software privativo rompe el espíritu de *colaboración científica* que hace progresar la sociedad.
+
+Con el tiempo, el Software Libre ha sido asimilado por la industria, apareciendo en 1998 la Open Source Initiative que busca una aproximación más pragmática y alejada de discusiones éticas. Esta iniciativa hizo popular el concepto _Open Source_ o Código Abierto para por un lado alejar la carga filosófica, y también para ayudar a aclarar el problema de la palabra free que en inglés significa tanto «_libre_» como «_gratis_».
+
+Disponemos por tanto de dos visiones del Software Libre, una más ética y concienciada con la sociedad, la libertad de sus individuos, y una mayor conciencia de nuestra interacción con la tecnología, y otra más pragmática, centrada en las ventajas tanto técnicas como económicas que introduce esta forma de producción. Probablemente, uno de los grandes éxitos del Software Libre haya sido la conciliación de ambas visiones, al menos en gran medida y no falta de sus propias contradicciones.
+
+El Software Libre a lo largo de los últimos 20 años ha calado en la industria y la sociedad, demostrando enormes ventajas, siendo algunas de ellas:
+
+* *Dificulta el centralismo*, al permitir el desarrollo de alternativas tecnológicas ante situaciones de posible monopolio. Esto está favorecido por la fuerte relación entre Software Libre y estándares y formatos abiertos.
+* Facilita la *independencia tecnológica*, ya que los usuarios tienen total control sobre el software que ejecutan en sus sistemas, pudiendo adaptarlo, mejorarlo, mantenerlo, sin necesidad de un proveedor concreto.
+* *Facilita la cooperación*, al permitir el trabajo distribuido mediante la libre asociación de desarrolladores que colaboran para crear productos sin la necesidad de relaciones contractuales, restricciones geográficas, etc.
+* Produce productos *más seguros*, al poder acceder a todo el código fuente, los fallos de seguridad se detectan de manera más rápida.
+Produce productos más robustos, por la misma razón que son seguros, los desarrolladores cuidan que su código (que todo el mundo puede ver y juzgar) sea de la máxima calidad.
+* Produce productos *más diversos*, ya que cualquiera puede colaborar, los productos libres se suelen encontrar traducidos a la gran mayoría de los idiomas y por definición, son mucho más adaptables a las necesidades de sus usuarios.
+
+El Software Libre no está exento de desventajas, por ejemplo:
+
+* *Seguridad*: al ser público, los fallos también lo son y si los desarrolladores no actúan, o los usuarios no actualizan sus sistemas, el software puede resultar fácilmente atacable.
+* *Compatibilidad* con _hardware_, en ocasiones el software no es compatible con los equipos más modernos, y puede llevar un tiempo para adaptarse.
+* Debido a que no todo el software libre es igual de popular, la *calidad* del mismo no es homogénea, por lo que dependiendo del sector, podemos encontrar software menos maduro y con menos funcionalidades que sus equivalentes privativos, llegando a existir áreas donde no existen alternativas libres en absoluto.
+
+Por otro lado, el Software Libre ha demostrado también habilitar modelos de negocio que dan sostenibilidad a aquellas empresas que se deciden por crear productos libres. El principal modelo de negocio es el de *prestación de servicios*. Una empresa típica que desarrolla un producto libre, ejecuta proyectos de consultoría y/o formación, y en posventa proporciona soporte técnico a sus clientes; el valor por tanto no se encuentra en el software como tal, sino en la capacidad de la empresa para resolver las necesidades concretas de sus clientes.
+
+[NOTE]
+.Sobre esta sección
+====
+Con el apoyo de Caixa Popular y la Coordinadora Valenciana de ONGD continuamos reforzando Pam a Pam, el mapa de economía social y solidaria (ESS) de la Comunitat Valenciana y consolidando la red ESS en la ciudad de València.
+
+Pam a Pam se basa en 15 criterios de ESS. Uno de ellos es el Software libre. Ofrecemos a las iniciativas de ESS que están en el mapa, y a las futuras, un artículo sobre qué es y por qué es importante este tipo de software. 
+====
+
+== Recursos e información adicional
+
+Gran parte de los contenidos de este artículo se han extraído de diferentes artículos de Wikipedia:
+
+* Wikipedia, Software Libre: https://es.wikipedia.org/wiki/Software_libre
+* Wikipedia, Software Libre y Código Abierto: https://en.wikipedia.org/wiki/Free_and_open-source_software
+* Computer Hoy, ¿Qué es y en qué consiste el Software Libre?: https://computerhoy.com/reportajes/tecnologia/consiste-open-source-399875
+* Gobierno de España, Normas de interoperabilidad: https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#REUTILIZACIONYTRANSFERENCIA
+* Universidad de la Laguna, Introducción al Software Libre: https://www.youtube.com/watch?v=b02MzYCAifU
