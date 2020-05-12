@@ -67,7 +67,7 @@ Me presento
 * Alternativas a software propietario
 * Discusión
 
-== Qué es el Software Libre
+== ¿Qué es el Software Libre?
 
 === Software
 
