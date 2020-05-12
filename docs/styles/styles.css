@@ -1,9 +1,16 @@
-body {
+/* body {
   background-image: url('../imgs/background.png');
-}
+} */
 
 .reveal .slides section.title {
   opacity: 0;
+}
+
+.reveal .slides .caption {
+  font-size: 0.8em;
+  margin-top: -20px;
+  padding: 0;
+  font-style: italic;
 }
 
 .reveal .slides section img{

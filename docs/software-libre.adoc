@@ -46,7 +46,7 @@ Las razones principales para crear Software Libre en ese momento eran básicamen
 * El software privativo es *frustrante* porque impide adaptarlo y mejorarlo a tus necesidades.
 * El software privativo rompe el espíritu de *colaboración científica* que hace progresar la sociedad.
 
-Con el tiempo, el Software Libre ha sido asimilado por la industria, apareciendo en 1998 la Open Source Initiative que busca una aproximación más pragmática y alejada de discusiones éticas. Esta iniciativa hizo popular el concepto _Open Source_ o Código Abierto para por un lado alejar la carga filosófica, y también para ayudar a aclarar el problema de la palabra free que en inglés significa tanto «_libre_» como «_gratis_».
+Con el tiempo, el Software Libre ha sido asimilado por la industria, apareciendo en 1998 la Open Source Initiative que busca una aproximación más pragmática y alejada de discusiones éticas. Esta iniciativa hizo popular el concepto _Open Source_ o Código Abierto para por un lado alejar la carga filosófica, y también para ayudar a aclarar el problema de la palabra _free_ que en inglés significa tanto «_libre_» como «_gratis_».
 
 Disponemos por tanto de dos visiones del Software Libre, una más ética y concienciada con la sociedad, la libertad de sus individuos, y una mayor conciencia de nuestra interacción con la tecnología, y otra más pragmática, centrada en las ventajas tanto técnicas como económicas que introduce esta forma de producción. Probablemente, uno de los grandes éxitos del Software Libre haya sido la conciliación de ambas visiones, al menos en gran medida y no falta de sus propias contradicciones.
 
@@ -56,7 +56,7 @@ El Software Libre a lo largo de los últimos 20 años ha calado en la industria 
 * Facilita la *independencia tecnológica*, ya que los usuarios tienen total control sobre el software que ejecutan en sus sistemas, pudiendo adaptarlo, mejorarlo, mantenerlo, sin necesidad de un proveedor concreto.
 * *Facilita la cooperación*, al permitir el trabajo distribuido mediante la libre asociación de desarrolladores que colaboran para crear productos sin la necesidad de relaciones contractuales, restricciones geográficas, etc.
 * Produce productos *más seguros*, al poder acceder a todo el código fuente, los fallos de seguridad se detectan de manera más rápida.
-Produce productos más robustos, por la misma razón que son seguros, los desarrolladores cuidan que su código (que todo el mundo puede ver y juzgar) sea de la máxima calidad.
+Produce productos más robustos, por la misma razón que son seguros, los desarrolladores cuidan que su códigohttps://twitter.com/EspejosGente (que todo el mundo puede ver y juzgar) sea de la máxima calidad.
 * Produce productos *más diversos*, ya que cualquiera puede colaborar, los productos libres se suelen encontrar traducidos a la gran mayoría de los idiomas y por definición, son mucho más adaptables a las necesidades de sus usuarios.
 
 El Software Libre no está exento de desventajas, por ejemplo:

@@ -1,7 +1,7 @@
 
 [%conceal]
 = Software Libre
-:revealjs_theme: beige
+:revealjs_theme: solarized
 :revealjs_hash: true
 :revealjs_history: true
 :revealjs_slideNumber: c/t
@@ -13,8 +13,8 @@
 :title-slide-transition: fade-in
 :title-slide-transition-speed: fast
 :title-slide-background-image: banner-horizontal.jpg
-:revealjs_parallaxBackgroundImage: background.jpg
-:revealjs_parallaxBackgroundSize: 1280px 640px
+:revealjs_parallaxBackgroundImage: imgs/background-2.png
+:revealjs_parallaxBackgroundSize: 1500px 1500px
 Jorge Sanz <jorge.sanz@elastic.co>
 https://twitter.com/xurxosanz[@xurxosanz]
 
@@ -23,6 +23,9 @@ https://twitter.com/xurxosanz[@xurxosanz]
 [.no-border]
 image::logo.jpg[Software Libre,50%]
 
+
+https://jsanz.github.io/softwarelibre-setem/[jsanz.github.io/softwarelibre-setem]
+
 [.notes]
 --
 Bienvenida
@@ -30,9 +33,11 @@ Bienvenida
 
 === Antes de empezar...
 
-image::https://media.giphy.com/media/3SF7JSl3o53UI/giphy.gif[Grabando]
-
-https://jsanz.github.io/softwarelibre-setem/[jsanz.github.io/softwarelibre-setem]
+[#img-grabando]
+[link=https://unsplash.com/photos/IhcSHrZXFs4]
+image::https://images.unsplash.com/photo-1520697830682-bbb6e85e2b0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80[Grabando]
+[.caption]
+Foto de Bernard Hermant en https://unsplash.com/photos/IhcSHrZXFs4[Unsplash]
 
 === Jorge Sanz
 
@@ -42,11 +47,11 @@ https://jsanz.github.io/softwarelibre-setem/[jsanz.github.io/softwarelibre-setem
 |===
 | 👨‍🏫 | Ingeniero en Cartografía y Geodesia (UPV)
 | 🌐 | Aldaia, Valencia
-| 🔖 | https://jorgesanz.net[jorgesanz.net]
 | 👨‍💻 | https://elastic.co[Elastic], antes en https://carto.com[CARTO], https://prodevelop.es[Prodevelop]
-| 💜 | https://osgeo.org[OSGeo], http://geoinquietos.org[Geoinquietos], https://openstreetmap.org[OSM], http://www.setem.org/site/es/comunitat-valenciana[SETEM]
+| 💜 | https://www.osgeo.org/[OSGeo], http://geoinquietos.org[Geoinquietos], https://openstreetmap.org[OSM], http://www.setem.org/site/es/comunitat-valenciana[SETEM]
 | 📧 | mailto:jorge.sanz@elastic.co[xurxosanz@gmail.com]
 | 🐤 | https://twitter.com/xurxosanz[@xurxosanz]
+| 🔖 | https://jorgesanz.net[jorgesanz.net]
 |===
 
 [.notes]
@@ -62,7 +67,100 @@ Me presento
 * Alternativas a software propietario
 * Discusión
 
-== Título sección
+== Qué es el Software Libre
+
+=== Software
+
+=== Código Fuente
+
+=== Las licencias
+
+=== Software Libre
+
+=== Las 4 libertades
+
+=== El Software Privativo
+
+== Por qué es importante el Software Libre
+
+=== Solidaridad
+
+=== Flexibilidad
+
+=== Colaborativo
+
+=== Eficiencia
+
+=== Independencia
+
+=== Diversidad
+
+=== Seguridad
+
+== Software Libre en la práctica
+
+=== Sistemas Operativos
+
+* Ubuntu
+* Fedora
+* Debian
+* Arch Linux
+* ...
+
+=== Navegar por Internet
+
+* Mozilla Firefox
+* Chromium
+
+=== Ofimática: LibreOffice
+
+=== Edición de imágenes
+
+* Dibujo Vectorial: Inkscape, Krita
+* Edición de imágenes: GIMP
+* Revelado de fotografías: Darktable, Rawtherapee, digiKam, https://scribblesandsnaps.com/linux-tools-for-serious-photographers/[artículo]
+
+=== Edición de vídeo
+
+* KDEnvLive
+* Open Shot
+* Shotcut
+
+=== Edición de música
+
+* Audacity
+* LMMS
+* ...
+
+https://itsfoss.com/best-audio-editors-linux/
+
+=== Reproducir medios
+
+* Música: audacious, rythmbox, clementine
+* Vídeo: VLC, mplayer
+* Fotografías: Eye of Gnome, gthumb, shotwell
+
+=== Web
+
+* Gestión de contenidos: Wordpress, Drupal,Magento, https://itsfoss.com/open-source-cms/[otros]
+* ERP: Odoo, https://opensource.com/tools/enterprise-resource-planning[otros]
+* CRM: SuiteCRM, Odoo, https://opensource.com/tools/enterprise-resource-planning[otros]
+* Colaboración: NextCloud
+
+
+
+== ¡¡Gracias!!
+[%hardbreaks]
+👨‍💻 Jorge Sanz 
+📧 mailto:jorge.sanz@elastic.co[jorge.sanz@elastic.co]
+🐤 https://twitter.com/xurxosanz[@xurxosanz]
+
+=== Recursos
+
+* http://bit.ly/20191114-openmaptiles[Serving Vector Tiles and OpenMapTiles]
+
+
+== Recursos para diapos
 
 === Título subsección
 
@@ -81,16 +179,3 @@ Me presento
 ----
 for in in ls; do echo $i; done
 ----
-
-
-== ¡¡Gracias!!
-[%hardbreaks]
-👨‍💻 Jorge Sanz 
-📧 mailto:jorge.sanz@elastic.co[jorge.sanz@elastic.co]
-🐤 https://twitter.com/xurxosanz[@xurxosanz]
-
-=== Recursos
-
-* http://bit.ly/20191114-openmaptiles[Serving Vector Tiles and OpenMapTiles]
-
-
