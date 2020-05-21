@@ -34,7 +34,6 @@ Bienvenida
 === Antes de empezar...
 
 [#img-grabando]
-[link=https://unsplash.com/photos/IhcSHrZXFs4]
 image::https://images.unsplash.com/photo-1520697830682-bbb6e85e2b0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80[Grabando]
 [.caption]
 Foto de Bernard Hermant en https://unsplash.com/photos/IhcSHrZXFs4[Unsplash]
@@ -71,9 +70,72 @@ Me presento
 
 === Software
 
+[#img-software]
+image::https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80[Software]
+[.caption]
+Foto de Austin Distel en https://unsplash.com/photos/gUIJ0YszPig[Unsplash]
+
+[quote]
+Todo lo que no es físico en un sistema informático
+
+[.notes]
+--
+El software es la parte de la informática que no es física (hardware), es decir todos los componentes lógicos que se ejecutan en un ordenador, un móvil, un sistema de entretenimiento de un coche, una pantalla de información de carretera, etc.
+--
+
 === Código Fuente
 
+[#img-codigo-fuente]
+image::source-code.png[Código Fuente,700]
+
+[quote]
+Texto que indica a un ordenador cómo ejecutar una tarea
+
+=== Código fuente: ejemplo
+
+Un programa sencillo escrito en JavaScript
+
+[source, javascript]
+----
+const dormir = async (segs) => {
+  return new Promise((r) => setTimeout(r, segs * 1000));
+};
+(async () => {
+  const textos = ["hola", "setem", "pamapam"];
+  const pausa = 2;
+
+  console.log("¿Empezamos? 🤔");
+
+  await dormir(pausa);
+
+  for (const texto of textos) {
+    console.log( '👏 ' + texto);
+    await dormir(pausa / 4);
+  }
+
+  console.log("¡Fin! 🌈");
+})();
+----
+[.caption]
+`setem.js`
+
+=== Código fuente: ejemplo (2)
+
+
+[source]
+----
+$ node setem.js 
+¿Empezamos? 🤔
+👏 hola
+👏 setem
+👏 pamapam
+¡Fin! 🌈
+----
+
 === Las licencias
+ 
+[quote]
+Contrato para ceder el derecho a un uso.
 
 === Software Libre
 
@@ -147,18 +209,27 @@ https://itsfoss.com/best-audio-editors-linux/
 * CRM: SuiteCRM, Odoo, https://opensource.com/tools/enterprise-resource-planning[otros]
 * Colaboración: NextCloud
 
+== Contacto
 
+[#img-contacto]
+image::participa.png[Participa,700]
 
-== ¡¡Gracias!!
-[%hardbreaks]
-👨‍💻 Jorge Sanz 
-📧 mailto:jorge.sanz@elastic.co[jorge.sanz@elastic.co]
-🐤 https://twitter.com/xurxosanz[@xurxosanz]
+https://pamapampv.org/participa/
+
+=== ¡¡Gracias!!
+
+[.role-details]
+[cols="^,<"] 
+[%autowidth]
+|===
+| 🤓 | Jorge Sanz
+| 📧 | mailto:jorge.sanz@elastic.co[xurxosanz@gmail.com]
+| 🐤 | https://twitter.com/xurxosanz[@xurxosanz]
+|===
 
 === Recursos
 
-* http://bit.ly/20191114-openmaptiles[Serving Vector Tiles and OpenMapTiles]
-
+* ...
 
 == Recursos para diapos
 
