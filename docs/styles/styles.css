@@ -39,3 +39,7 @@ table.grid-all>thead>tr>.tableblock, table.grid-all>tbody>tr>.tableblock
 .reveal .slides table.role-details td p {
   margin: 5px;
 }
+
+.reveal .slides section strong {
+  color: darkred; 
+}

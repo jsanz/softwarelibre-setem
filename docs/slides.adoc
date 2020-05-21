@@ -23,7 +23,6 @@ https://twitter.com/xurxosanz[@xurxosanz]
 [.no-border]
 image::logo.jpg[Software Libre,50%]
 
-
 https://jsanz.github.io/softwarelibre-setem/[jsanz.github.io/softwarelibre-setem]
 
 [.notes]
@@ -38,14 +37,19 @@ image::https://images.unsplash.com/photo-1520697830682-bbb6e85e2b0b?ixlib=rb-1.2
 [.caption]
 Foto de Bernard Hermant en https://unsplash.com/photos/IhcSHrZXFs4[Unsplash]
 
+[.notes]
+--
+Esta sesión se está grabando y transmitiendo en vivo en https://www.youtube.com/watch?v=ID6OmIVRd2I[esta dirección en Youtube], por si prefieres verla desde allí
+--
+
 === Jorge Sanz
 
 [.role-details]
 [cols="^,<"] 
 [%autowidth]
 |===
-| 👨‍🏫 | Ingeniero en Cartografía y Geodesia (UPV)
-| 🌐 | Aldaia, Valencia
+| 👨‍🏫 | Ingeniero en Cartografía y Geodesia (UPV, 2004)
+| 🌍 | Aldaia, Valencia
 | 👨‍💻 | https://elastic.co[Elastic], antes en https://carto.com[CARTO], https://prodevelop.es[Prodevelop]
 | 💜 | https://www.osgeo.org/[OSGeo], http://geoinquietos.org[Geoinquietos], https://openstreetmap.org[OSM], http://www.setem.org/site/es/comunitat-valenciana[SETEM]
 | 📧 | mailto:jorge.sanz@elastic.co[xurxosanz@gmail.com]
@@ -62,13 +66,22 @@ Me presento
 === 📑 Agenda
 
 * Bienvenida
+* image:setem-logo.png[setem, title="setem",50] y image:pamapam-logo.png[PamAPam, title="PamAPam",30] con Mayte Bartual
 * Qué es el software libre
 * Alternativas a software propietario
 * Discusión
 
-== ¿Qué es el Software Libre?
+[%notitle,background-iframe="https://pamapampv.org/"]
+== Pam a Pam
 
-=== Software
+== ¿Qué es el _Software Libre_?
+
+* Software
+* Licencias
+* Software Libre
+* Libertades
+
+== Software
 
 [#img-software]
 image::https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80[Software]
@@ -119,6 +132,8 @@ const dormir = async (segs) => {
 [.caption]
 `setem.js`
 
+[%notitle]
+[background-color="black"]
 === Código fuente: ejemplo (2)
 
 
@@ -132,12 +147,60 @@ $ node setem.js
 ¡Fin! 🌈
 ----
 
-=== Las licencias
+== Las licencias
  
+[#img-software]
+image::https://images.unsplash.com/photo-1558677949-260173506bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80[Software]
+[.caption]
+Foto de Lalaine Macababbad en https://unsplash.com/photos/1l4ozWuJtP4/share[Unsplash]
+
 [quote]
 Contrato para ceder el derecho a un uso.
 
+=== Las licencias pueden:
+
+[%step]
+* Ofrecer *acceso* al código fuente
+* Permitir el *uso* del software en ciertas condiciones
+* Limitar la *distribución*
+* Estar orientadas a *tipos* de uso
+** software
+** obras artísticas
+
+=== Creative Commons
+
+* Conjunto de licencias para trabajos *creativos*
+* Ofrecen diferentes *condiciones* que se combinan:
+** Atribución (BY)
+** No Comercial (NC)
+** No derivadas (ND)
+** Compartir Igual (SA)
+
+
+=== Creative Commons
+
+[#img-cc]
+image::creative-commons.png[Licencias CC]
+[.caption]
+https://es.wikipedia.org/wiki/Licencias_Creative_Commons
+
+
+=== Licencia Unsplash
+
+[#img-cc]
+image::unsplash.png[Licencia Unsplash]
+[.caption]
+https://unsplash.com/license
+
 === Software Libre
+
+
+=== Licencias de software libre
+
+* Permisivas
+** BSD, MIT, LGPL, Apache, ...
+* Restrictivas
+** GPL, Eclipse PL, Affero, ...
 
 === Las 4 libertades
 
