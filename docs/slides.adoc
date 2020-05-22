@@ -1,11 +1,15 @@
 
 [%conceal]
 = Software Libre
+:revealjs_center: true
 :revealjs_theme: solarized
 :revealjs_hash: true
 :revealjs_history: true
+:revealjs_fragmentInURL: true
 :revealjs_slideNumber: c/t
-:revealjs_previewLinks: true
+:revealjs_previewLinks: false
+:revealjs_parallaxBackgroundImage: imgs/background-2.png
+:revealjs_parallaxBackgroundSize: 1500px 1500px
 :customcss: styles/styles.css
 :icons: font
 :imagesdir: imgs
@@ -13,9 +17,7 @@
 :title-slide-transition: fade-in
 :title-slide-transition-speed: fast
 :title-slide-background-image: banner-horizontal.jpg
-:revealjs_parallaxBackgroundImage: imgs/background-2.png
-:revealjs_parallaxBackgroundSize: 1500px 1500px
-Jorge Sanz <jorge.sanz@elastic.co>
+Jorge Sanz <xurxosanz@gmail.com>
 https://twitter.com/xurxosanz[@xurxosanz]
 
 == Bienvenida
@@ -157,15 +159,27 @@ Foto de Lalaine Macababbad en https://unsplash.com/photos/1l4ozWuJtP4/share[Unsp
 [quote]
 Contrato para ceder el derecho a un uso.
 
-=== Las licencias pueden:
+=== Las licencias
 
-[%step]
-* Ofrecer *acceso* al código fuente
-* Permitir el *uso* del software en ciertas condiciones
-* Limitar la *distribución*
-* Estar orientadas a *tipos* de uso
-** software
-** obras artísticas
+[.role-details]
+[cols="<a"] 
+[%autowidth]
+|===
+|
+Regulan:
+
+| [%step]
+* El *uso* del software
+* El *acceso* al código fuente
+* La *distribución* del software y su código fuente
+|===
+
+ 
+=== Las licencias: tipo de producto
+
+* software
+* obras artísticas
+
 
 === Creative Commons
 
@@ -192,85 +206,225 @@ image::unsplash.png[Licencia Unsplash]
 [.caption]
 https://unsplash.com/license
 
-=== Software Libre
+== Software Libre
 
+[%step]
+* Software que a través de la *licencia* otorga ciertas libertades a sus usuarios.
+* En inglés es problemático por el doble sentido de la palabra _free_: gratis y *libre*
+* La primera definición formal (Richard Stallman, 1990) otorgaba *4 libertades*
+
+=== Libertad para...
+
+[start=0]
+. *usar* el programa con cualquier propósito
+. *estudiar* el programa y *adaptarlo* a tus necesidades^*^
+. *redistribuir* el programa tantas veces que quieras
+. mejorar el programa y *hacer públicas* esas mejoras^*^
+
+^*^ _Para poder estudiar y mejorar el programa es necesario tener acceso al código fuente del mismo_
 
 === Licencias de software libre
 
+Las licencias libres han evolucionado en dos familias según cómo se comportan en la *redistribución*:
+
+[%step]
 * Permisivas
 ** BSD, MIT, LGPL, Apache, ...
 * Restrictivas
-** GPL, Eclipse PL, Affero, ...
+** *GPL*, Eclipse PL, Affero, ...
 
-=== Las 4 libertades
+
+=== Listado de licencias
+
+video::licencias.webm[options=autoplay]
+[.caption]
+https://opensource.org/licenses/category
+
 
 === El Software Privativo
 
-== Por qué es importante el Software Libre
+* No usan una licencia libre
+* *_Freeware_*: (_free as free 🍺_)
+* Código fuente puede ser accesible
+** https://github.com/elastic/kibana/tree/master/x-pack[x-pack] en Elastic
 
-=== Solidaridad
+[%step]
+image::x-pack.png[x-pack]
 
-=== Flexibilidad
+== Por qué es importante
+
+* Colaboración
+* Flexibilidad
+* Independencia
+* Seguridad 
+* Diversidad
+* Solidaridad
+
+=== !
+
+image::blog-sofware-libre.png[¿Por qué es importante el Software Libre?,500]
+[.caption]
+https://pamapampv.org/es/blog/por-que-es-importante-el-software-libre/
 
 === Colaborativo
 
-=== Eficiencia
+* El SL puede ser desarrollado y mantenido por:
+** Una sola persona
+** Una empresa
+** Una *comunidad*
+
+=== ¿Cómo se puede colaborar?
+
+[.role-details]
+[cols="^,<"] 
+[%autowidth]
+|===
+| 👩‍💻 | Nuevas funcionalidades
+| 👩‍💻 | Arreglo de errores
+| 🤓 | Reportar errores (_testing_)
+| 🤓 | Apoyo a otros usuarios
+| 📚| Documentación
+| 🌏 | Traducciones
+| 💶 | Apoyo económico
+| 🗣️ | Difusión
+|===
+
+
+=== Caso de uso: QGIS
+
+image::qgis.png[Comunidad de QGIS,700]
+[.caption]
+https://www.qgis.org/es/site/getinvolved
+
 
 === Independencia
 
-=== Diversidad
+* El *_vendor lock-in_* en el software privativo
+* Soporte fara más *formatos* de ficheros y protocolos
+* Alta adhesión a *estándares*
+
+
+=== Caso de uso: GeoServer
+
+video::geoserver.webm[]
+[.caption]
+https://live.osgeo.org/es/overview/geoserver_overview.html
+
+
+=== Flexibilidad y diversidad
+
+* Mayor *adaptación* a todo tipo de entornos
+* Traducido a más *idiomas*
+* Soporte a *equipos anticuados*
+
 
 === Seguridad
+
+video::firefox-seguridad.webm[]
+[.caption]
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5296
+https://www.mozilla.org/en-US/security/advisories/mfsa2016-89/
+
+
+=== Solidaridad
+
+[quote]
+«transparencia, diversidad, seguridad, comunidad»
+
 
 == Software Libre en la práctica
 
 === Sistemas Operativos
 
-* Ubuntu
-* Fedora
-* Debian
-* Arch Linux
+* https://ubuntu.com/desktop[*Ubuntu*]
+* https://www.linuxmint.com/[*Linux Mint*]
+* https://getfedora.org/[Fedora]
+* https://www.debian.org/[Debian]
+* https://www.archlinux.org/[Arch Linux]
 * ...
 
 === Navegar por Internet
 
-* Mozilla Firefox
-* Chromium
+* https://www.mozilla.org/en-US/exp/firefox/new/[Mozilla Firefox]
+* https://www.chromium.org/Home[Chromium] o https://brave.com/[Brave] (versión libre de Chrome)
+
+image::chromium.png[Chromium,700]
+[.caption]
+https://www.chromium.org/Home
 
 === Ofimática: LibreOffice
 
+https://es.libreoffice.org/
+
+=== Writer
+
+[#img-writer]
+[link=https://commons.wikimedia.org/wiki/File:Libreoffice_writer_nice_pic_of_ui.png]
+image::libreoffice-writer.png[LibreOffice Writer]
+
+=== Calc
+
+[#img-calc]
+[link=https://es.m.wikipedia.org/wiki/Archivo:Sphinux_desktop_pu blishing_libreoffice.png]
+image::libreoffice-calc.png[LibreOffice Calc]
+
+=== Impress
+
+[#img-impress]
+[link=https://commons.wikimedia.org/wiki/File:LibreOffice-4.4.5-Impress.png]
+image::libreoffice-impress.png[LibreOffice Impress]
+ 
+=== Correo Electrónico
+
+https://www.thunderbird.net/es-ES/[*Mozilla Thunderbird*], https://kde.org/applications/en/internet/org.kde.kmail2[KMail], https://wiki.gnome.org/Apps/Geary[Geary], https://medium.com/issuehunt/10-open-source-mail-clients-fd7886bff999[más info]
+
+[#img-thunderbird]
+[link=https://es.wikipedia.org/wiki/Archivo:Mozilla_Thunderbird_3.1.png]
+image::thunderbird.png[Thunderbird,700]
+
+
 === Edición de imágenes
 
-* Dibujo Vectorial: Inkscape, Krita
-* Edición de imágenes: GIMP
-* Revelado de fotografías: Darktable, Rawtherapee, digiKam, https://scribblesandsnaps.com/linux-tools-for-serious-photographers/[artículo]
+Dibujo Vectorial:: https://inkscape.org/es[*Inkscape*], 
+Edición de imágenes:: https://www.gimp.org/[*GIMP*], https://krita.org/es/[Krita]
+Revelado de fotografías:: https://www.darktable.org/[*Darktable*], https://rawtherapee.com/[Rawtherapee], https://www.digikam.org/[digiKam], https://scribblesandsnaps.com/linux-tools-for-serious-photographers/[más info]
 
 === Edición de vídeo
 
-* KDEnvLive
-* Open Shot
-* Shotcut
+* https://kdenlive.org/en/[*KDEnvLive*]
+* https://www.openshot.org/[Open Shot]
+* https://shotcut.org/[Shotcut]
+* https://obsproject.com/[*OBS Studio*]
 
 === Edición de música
 
-* Audacity
-* LMMS
-* ...
-
-https://itsfoss.com/best-audio-editors-linux/
+* https://www.audacityteam.org/[*Audacity*]
+* https://lmms.io/[LMMS]
+* https://itsfoss.com/best-audio-editors-linux/[más info]
 
 === Reproducir medios
 
-* Música: audacious, rythmbox, clementine
-* Vídeo: VLC, mplayer
-* Fotografías: Eye of Gnome, gthumb, shotwell
+Música:: https://audacious-media-player.org/[*audacious*], https://help.gnome.org/users/rhythmbox/stable/[rythmbox], https://www.clementine-player.org/[clementine]
+Vídeo:: https://www.videolan.org/vlc/index.html[*VLC*], http://www.mplayerhq.hu/design7/news.html[mplayer]
+Fotografías:: https://help.gnome.org/users/eog/stable/[*Eye of Gnome*], https://wiki.gnome.org/Apps/Gthumb[gthumb], https://wiki.gnome.org/Apps/Shotwell[*shotwell*], https://www.linuxlinks.com/f-spot/[F-Spot]
 
 === Web
 
-* Gestión de contenidos: Wordpress, Drupal,Magento, https://itsfoss.com/open-source-cms/[otros]
-* ERP: Odoo, https://opensource.com/tools/enterprise-resource-planning[otros]
-* CRM: SuiteCRM, Odoo, https://opensource.com/tools/enterprise-resource-planning[otros]
-* Colaboración: NextCloud
+* Gestión de contenidos: https://wordpress.org/[WordPress], https://www.drupal.org/[Drupal], https://magento.com/[Magento], https://itsfoss.com/open-source-cms/[otros]
+* ERP: https://www.odoo.com/es_ES/[Odoo], https://opensource.com/tools/enterprise-resource-planning[otros]
+* CRM: https://suitecrm.com/[SuiteCRM], https://www.odoo.com/es_ES/[Odoo], https://opensource.com/tools/enterprise-resource-planning[otros]
+* Colaboración: https://nextcloud.com/[NextCloud]
+
+=== Y muchísimo más
+
+video::software.webm[]
+
+== Discusión
+
+* ¿Qué no has entendido sobre el software libre?
+* ¿Te da desconfianza? ¿Por qué?
+* ¿Echas de menos algun categoría?
+
 
 == Contacto
 
@@ -290,26 +444,3 @@ https://pamapampv.org/participa/
 | 🐤 | https://twitter.com/xurxosanz[@xurxosanz]
 |===
 
-=== Recursos
-
-* ...
-
-== Recursos para diapos
-
-=== Título subsección
-
-
-[transition="fade-out", transition-speed=fast]
-=== Subsección con transición personalizada
-
-
-[%notitle,background-iframe="https://es.wikipedia.org/wiki/Wikipedia:Portada"]
-=== Sección sin título y con IFrame
-
-
-== Código fuente
-
-[source, bash]
-----
-for in in ls; do echo $i; done
-----
