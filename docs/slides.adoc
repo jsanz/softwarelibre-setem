@@ -91,7 +91,7 @@ image::https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2
 Foto de Austin Distel en https://unsplash.com/photos/gUIJ0YszPig[Unsplash]
 
 [quote]
-Todo lo que no es físico en un sistema informático
+Todo lo que *no* es físico en un sistema informático
 
 [.notes]
 --
@@ -246,19 +246,13 @@ https://opensource.org/licenses/category
 * No usan una licencia libre
 * *_Freeware_*: (_free as free 🍺_)
 * Código fuente puede ser accesible
-** https://github.com/elastic/kibana/tree/master/x-pack[x-pack] en Elastic
-
-[%step]
-image::x-pack.png[x-pack]
 
 == Por qué es importante
 
 * Colaboración
-* Flexibilidad
+* Flexibilidad y diversidad
 * Independencia
-* Seguridad 
-* Diversidad
-* Solidaridad
+* Seguridad
 
 === !
 
@@ -326,7 +320,7 @@ https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5296
 https://www.mozilla.org/en-US/security/advisories/mfsa2016-89/
 
 
-=== Solidaridad
+=== El software libre es solidario
 
 [quote]
 «transparencia, diversidad, seguridad, comunidad»
@@ -391,7 +385,7 @@ Revelado de fotografías:: https://www.darktable.org/[*Darktable*], https://rawt
 
 === Edición de vídeo
 
-* https://kdenlive.org/en/[*KDEnvLive*]
+* https://kdenlive.org/en/[*Kdenlive*]
 * https://www.openshot.org/[Open Shot]
 * https://shotcut.org/[Shotcut]
 * https://obsproject.com/[*OBS Studio*]
@@ -426,10 +420,10 @@ video::software.webm[]
 * ¿Echas de menos algun categoría?
 
 
-== Contacto
+=== Contacto
 
 [#img-contacto]
-image::participa.png[Participa,700]
+image::participa.png[Participa,600]
 
 https://pamapampv.org/participa/
 
