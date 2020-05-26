@@ -4,6 +4,7 @@ Materiales de charla sobre Software Libre para http://www.setem.org/site/es/comu
 
 * https://jsanz.github.io/softwarelibre-setem/#/[Diapositivas]
 * link:./docs/software-libre.adoc[Artículo]
+* https://www.youtube.com/watch?v=oqSAIPo-N-I[Grabación]
 
 [#banner]
 .Cartel de la actividad
